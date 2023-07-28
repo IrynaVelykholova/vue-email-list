@@ -17,10 +17,11 @@
 <body>
     <div id="app">
 
-        <div class="p-4">
+        <div class="p-5">
             <h1 class="text-center p-3 display-2">Lista E-mail</h1>
 
-            <ul v-if="listaMail.length > 9" class="text-center list-unstyled">
+            <ul v-if="listaMail.length > 9" 
+                class="text-center list-unstyled">
                 <li class="py-1" v-for="mail in listaMail">{{ mail }}</li>
             </ul>
         </div>
